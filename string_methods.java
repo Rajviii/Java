@@ -33,7 +33,7 @@ public class string_methods {
         System.out.println(name.replace("ana" , "es"));
 
         //startsWith and endsWith
-        //it it is starting with which string we put then it'll return true otherwise 0
+        //it it is starting with which string we put then it'll return true otherwise false
         System.out.println(name.startsWith("Ar")); //true
         System.out.println(name.startsWith("an")); //false
         System.out.println(name.endsWith("ri")); //false
@@ -64,7 +64,7 @@ public class string_methods {
         //for ignoring Case sensitivity
         System.out.println(name.equalsIgnoreCase("aRiAna"));
 
-        //Escape sequence characters
+        //Escape sequence characters 
         System.out.println("I am escape sequence \" double quote");
         System.out.println("I am escape sequence \' single quote");
         System.out.println("I am escape sequence \\ backslash");
